@@ -3,6 +3,8 @@
 <html>
     <head>
         <title>떡볶이 배달 서비스 회원가입</title>
+        <meta charset="utf-8" />
+<!-- utf-8, euc-kr -->
     </head>
 
     <body>
@@ -12,40 +14,66 @@
             아래 양식을 기입해주세요.
         </p>
         <form>
-            <h3>(회원가입)</h3>
-            <p>아이디</p><input id="form1"  type="text" placeholder="아이디를 입력해주세요" value=""/>
-        
-            <p>비밀번호</p><input type="password" placeholder="암호를 입력해주세요" value="">
-            <input type="radio" name="bt1" value="1"/>
-            <input type="radio" name="bt1" value="2"/>
-            <input type="radio" name="bt1" value="3"/>
-          <!-- 같은 정보의 라디오 버튼의 이름은 같아야함 -->
-          <input type="radio" name="bt2" value="1"/>
-            <input type="radio" name="bt2" value="2"/>
-            <input type="radio" name="bt2" value="3"/>
-            <input type="checkbox" value="1" />
-            <input type="checkbox" value="2" />
-            <input type="checkbox" value="3" />
-        
+                <hr>
+            <h1>(회원가입)</h1>
+            <p><h3>성함</h3></p><input id="form1"  type="text" placeholder="이름을 입력해주세요" value=""/>
+            <p><h3>아이디</h3></p><input id="form1"  type="text" placeholder="아이디를 입력해주세요" value=""/>
+            <input type="button" onclick="alert('사용 가능한 아이디입니다.')" value="중복 확인""/>
+           <p><h3>비밀번호</h3></p><input type="password" placeholder="비밀번호를 입력해주세요" value=""><p>(*비밀번호 대문자 포함 6자이상)</p>
             
+            <h3>거주지</h3>
             <select>
-              <option>사이트 이름</option>
-              <option>네이버</option>
-              <option>구글</option>
-              <option>페이스북</option>
-            </select>
-        
+                    <option>지역</option>
+                    <option>서울</option>
+                    <option>경기</option>
+                    <option>부산</option>
+                    <option>대구</option>
+                    <option>인천</option>
+                    <option>충남</option>
+                    <option>강원</option>
+                    <option>제주</option>
+                  </select>
+           <hr>
+            <h3>배달주문 빈도</h3>
+            한달에 1~2회<input type="radio" name="bt1" value="1"/>
+            <br>
+            주 1~2회 <input type="radio" name="bt1" value="2"/>
+            <br>
+            세달에 1~2회<input type="radio" name="bt1" value="3"/>
+            
+          <!-- 같은 정보의 라디오 버튼의 이름은 같아야함 -->
+          <hr>
+            
+          <h3>주로 주문하는 메뉴</h3>
+            떡볶이<input type="checkbox" value="1" />
+            순대<input type="checkbox" value="2" />
+            오뎅<input type="checkbox" value="3" />
+            우동<input type="checkbox" value="4" />
+            라볶이<input type="checkbox" value="5" />
+            김밥<input type="checkbox" value="6" />
+            <br>
+            <hr>
+            
+            
+            저희 떡볶이 배달 서비스를 가입해주셔서 감사합니다.
+            <br>
+            자주 이용해 주실거죠?!
+            <br>
+
             <!-- cols 열갯수(글자수), rows 행갯수(줄수) -->
-            <textarea cols="20" rows="3">
-                ?
+            <br>
+            <textarea cols="36" rows="3">
+                네~!
             </textarea>
             
             <!-- button 버튼 -->
-            <input type="button" value="버튼이름" />
-            <input type="button" onclick="alert('테스트완료')" value="테스트 버튼"/>
-        
+            <input type="button" value="응원의 말 보내기" />
+            <br>
+
+             <br>
             <!-- submit 제출 버튼 -->
-            <input type="submit" value="제출" />
+            <input type="submit" value="가입서 제출하기" />
+         
             
             
         </form>
