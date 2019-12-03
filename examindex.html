@@ -4,11 +4,55 @@
         <title>기말평가 index</title>
           <meta charset="utf-8" />
       <style>
-        header{padding: 30px 60px;
+         header{padding: 30px 60px; }
+         footer{
+                background-color: #555;
+                color: #ccc;   
+
+                padding: 10px 50px;
+            }
+            footer>div>ul>li{
+                float:left;
+                list-style: none;
+                padding: 0px 10px; /* 상하 좌우 */
+
+                border-right: solid 2px gray;
+            }
+            footer>div>ul>li:nth-child(6){
+                border: none;
+            }
+            footer>div>ul{
+                padding:0px;
+            }
+            footer>ul>li{
+                float: left;
+                list-style: none;
+                padding: 0px 10px; /* 상하 좌우 */
+            }
+            footer>ul{
+                 padding:0px;
+            }
+            #footer_left{
+                float: left;
+            }
+            #footer_right{
+                float: right;
+            }
+            #wrap{
+               /* width: 1200px; */ /* 고정값 */
+                 min-width: 1100px; /*최소넓이*/
+                 max-width: 1920px; /*최대넓이*/
+                 margin-left: auto;
+                 margin-right: auto;
+            }
+            body{
+                margin: 0px;
+            }
       </style>    
     </head> 
     
       <body>
+        
           <header> 
               <h1>꽃말</h1>
                 <a href="exam2.html">꽃말</a>
@@ -21,7 +65,15 @@
    
 
 
-
+         <footer>
+            <div class="short_line"></div>
+            <img src="images/layout3_icon1.png" />
+            <img src="images/layout3_icon2.png" />
+            <img src="images/layout3_icon3.png" />
+            <img src="images/layout3_icon4.png" />
+            <div class="short_line"></div>
+            계원예술대학교 디지털미디어디자인과 21961101정재희
+        </footer>
 
     </body>
 </html>

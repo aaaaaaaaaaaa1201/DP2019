@@ -8,15 +8,53 @@
             div { text-align: center; }
                   @media ( max-width: 768px ) {body { color: red; }}
 
-                  header{padding: 30px 60px; /* 상하 좌우 */ }
+                  header{padding: 30px 60px; }
+                 
+                  footer{
+                background-color: #555;
+                color: #ccc;   
+
+                padding: 10px 50px;
+            }
+            footer>div>ul>li{
+                float:left;
+                list-style: none;
+                padding: 0px 10px; /* 상하 좌우 */
+
+                border-right: solid 2px gray;
+            }
+            footer>div>ul>li:nth-child(6){
+                border: none;
+            }
+            footer>div>ul{
+                padding:0px;
+            }
+            footer>ul>li{
+                float: left;
+                list-style: none;
+                padding: 0px 10px; /* 상하 좌우 */
+            }
+            footer>ul{
+                 padding:0px;
+            }
+            #footer_left{
+                float: left;
+            }
+            #footer_right{
+                float: right;
+            }
+            #wrap{
+               /* width: 1200px; */ /* 고정값 */
+                 min-width: 1100px; /*최소넓이*/
+                 max-width: 1920px; /*최대넓이*/
+                 margin-left: auto;
+                 margin-right: auto;
+            }
+            body{
+                margin: 0px;
+            }
                   
-
             
-                   
-           
-                
-    
-
 
         </style>
     </head>
@@ -59,110 +97,111 @@
         
             <h2>꽃말 소개</h2>
                <dl>
-                  
-                  <dt>흰색 튤립</dt>
-                  <img src="images/꽃/흰노란튤립.png" width="300" height="300"/>
+                  <p>
+                  <dt><b>흰색 튤립</b></dt>
+                  <img src="images/꽃/흰노란튤립.png" width="300" height="200"/>
                   <dd>실연</dd>
-                     
-                  
-                  <dt>빨간 튤립</dt>
-                  <img src="images/꽃/빨간튤립.png" width="300" height="300"/>
+                  </p>  
+                  <p>
+                  <dt><b>빨간 튤립</b></dt>
+                  <img src="images/꽃/빨간튤립.png" width="300" height="200"/>
                   <dd>사랑의 고백, 영원한 애정</dd>
-
-                 
-                  <dt>빨간 장미</dt>
-                  <img src="images/꽃/빨간장미.png" width="300" height="300"/>
+                  </p>
+                  <p>
+                  <dt><b>빨간 장미</b></dt>
+                  <img src="images/꽃/빨간장미.png" width="300" height="200"/>
                   <dd>열렬한 사랑</dd>
-
-                  
-                  <dt>파란 장미</dt>
-                  <img src="images/꽃/파란장미.png" width="300" height="300"/>
+                  </p>
+                  <p>
+                  <dt><b>파란 장미</b></dt>
+                  <img src="images/꽃/파란장미.png" width="300" height="200"/>
                   <dd>희망, 기적</dd>
-
-                  
-                  <dt>흰색 장미</dt>
-                  <img src="images/꽃/하얀장미.png" width="300" height="300"/>
+                  </p>
+                  <p>
+                  <dt><b>흰색 장미</b></dt>
+                  <img src="images/꽃/하얀장미.png" width="300" height="200"/>
                   <dd>순결함, 청순함</dd>
-
-                  
-                  <dt>노랑 장미</dt>
-                  <img src="images/꽃/노란장미.png" width="300" height="300"/>
+                  </p>
+                  <p>
+                  <dt><b>노랑 장미</b></dt>
+                  <img src="images/꽃/노란장미.png" width="300" height="200"/>
                   <dd>우정과 영원한 사랑</dd>
-
-                  
-                  <dt>수국</dt>
-                  <img src="images/꽃/수국.png" width="300" height="300"/>
+                  </p>
+                  <p>
+                  <dt><b>수국</b></dt>
+                  <img src="images/꽃/수국.png" width="300" height="200"/>
                   <dd>진심, 변덕</dd>
-
-                
-                  <dt>프리지아</dt>
-                  <img src="images/꽃/프리지아.png" width="300" height="300"/>
+                  </p>
+                  <p>
+                  <dt><b>프리지아</b></dt>
+                  <img src="images/꽃/프리지아.png" width="300" height="200"/>
                   <dd>천진난만, 자기자랑</dd>
-
-                  
-                  <dt>백합</dt>
-                  <img src="images/꽃/백합.png" width="300" height="300"/>
+                  </p>
+                  <P>
+                  <dt><b>백합</b></dt>
+                  <img src="images/꽃/백합.png" width="300" height="200"/>
                   <dd>순결, 변함 없는 사랑</dd>
-
-                  
-                  <dt>노란 국화</dt>
-                  <img src="images/꽃/노란국화.png" width="300" height="300"/>
+                  </P>
+                  <P>
+                  <dt><b>노란 국화</b></dt>
+                  <img src="images/꽃/노란국화.png" width="300" height="200"/>
                   <dd>짝사랑, 실망</dd>
-
-                 
-                  <dt>분홍 국화</dt>
-                  <img src="images/꽃/분홍국화.png" width="300" height="300"/>
+                  </P>
+                  <P>
+                  <dt><b>분홍 국화</b></dt>
+                  <img src="images/꽃/분홍국화.png" width="300" height="200"/>
                   <dd>정조</dd>
-
-                  
-                  <dt>벚꽃</dt>
-                  <img src="images/꽃/벚꽃.png" width="300" height="300"/>
+                  </P>
+                  <P>
+                  <dt><b>벚꽃</b></dt>
+                  <img src="images/꽃/벚꽃.png" width="300" height="200"/>
                   <dd>절세미인, 순결</dd>
-
-                  
-                  <dt>안개꽃</dt>
-                  <img src="images/꽃/안개꽃.png" width="300" height="300"/>
+                  </P> 
+                  <P>
+                  <dt><b>안개꽃</b></dt>
+                  <img src="images/꽃/안개꽃.png" width="300" height="200"/>
                   <dd>깨끗한 마음, 사랑의 성공 </dd>
-
-                 
-                  <dt>라그라스</dt>
-                  <img src="images/꽃/라그라스.png" width="300" height="300"/>
+                  </P>
+                  <P>
+                  <dt><b>라그라스</b></dt>
+                  <img src="images/꽃/라그라스.png" width="300" height="200"/>
                   <dd>친절에 대한 감사</dd>
-
-                  
-                  <dt>코스모스</dt>
-                  <img src="images/꽃/코스모스.png" width="300" height="300"/>
+                  </P>
+                  <P>
+                  <dt><b>코스모스</b></dt>
+                  <img src="images/꽃/코스모스.png" width="300" height="200"/>
                   <dd>순정</dd>
-
-                  
-                  <dt>목화</dt>
-                  <img src="images/꽃/목화.png" width="300" height="300"/>
+                  </P>
+                  <P>
+                  <dt><b>목화</b></dt>
+                  <img src="images/꽃/목화.png" width="300" height="200"/>
                   <dd>어머니의 사랑</dd>
-
-                  
-                  <dt>라넌큘러스</dt>
-                  <img src="images/꽃/라넌큘러스.png" width="300" height="300"/>
+                  </P>
+                  <P>
+                  <dt><b>라넌큘러스</b></dt>
+                  <img src="images/꽃/라넌큘러스.png" width="300" height="200"/>
                   <dd>매력, 매혹, 비난하다</dd>
-
-                  
-                  <dt>칼라</dt>
-                  <img src="images/꽃/칼라.png" width="300" height="300"/>>
+                  </P>
+                  <P>
+                  <dt><b>칼라</b></dt>
+                  <img src="images/꽃/칼라.png" width="300" height="200"/>
                   <dd>열정, 청정</dd>
-
-                  
-                  <dt>해바라기</dt>
-                  <img src="images/꽃/해바라기.png" width="300" height="300"/>
+                  </P>
+                  <p>
+                  <dt><b>해바라기</b></dt>
+                  <img src="images/꽃/해바라기.png" width="300" height="200"/>
                   <dd>숭배, 기다림</dd>
-
-                  
-                  <dt>개나리</dt>
-                  <img src="images/꽃/개나리.png" width="300" height="300"/>
+                  </p>
+                  <P>
+                  <dt><b>개나리</b></dt>
+                  <img src="images/꽃/개나리.png" width="300" height="200"/>
                   <dd>희망, 나의 사랑이 당신보다 강함</dd>
-
-               
-                  <dt>동백꽃</dt>
-                  <img src="images/꽃/동백꽃.png" width="300" height="300"/>
+                  </p>
+                  <p>
+                  <dt><b>동백꽃</b></dt>
+                  <img src="images/꽃/동백꽃.png" width="300" height="200"/>
                   <dd>그대를 누구보다 사랑합니다</dd>
+                  </p>
                 </dl>
             </div>
   
